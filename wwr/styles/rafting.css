@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #fff8f0;
+    --secondary-color: #102b3f;
+    --accent-color: #ff5400;
+    --background-color: #008DD5;
+    --text-color: #f3f3f3;
+    --heading-color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+    font-family: 'Zain', sans-serif;
+}
+
+p {
+    color: var(--text-color);
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+}
+
+body {
+    font-family: 'Merriweather' , serif;
+    max-width: 1200px;
+    margin: auto;
+    background-color: var(--background-color);
+    padding: 20px;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+/* Hero image */
+.hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Heading */
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    /* left: 30px; */
+    /* right: 30px; */
+    color: var(--primary-color);
+    background-color: rgba(87, 80, 117, 0.507);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 2.8em;
+ 
+}
+
+/* Article */
+.hero article {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 90%;
+    background-color: rgba(122, 130, 233, 0.8);
+    padding: 20px;
+    
+
+    border-radius: 8px;
+}
+
+/* Image inside the article */
+.hero article img {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-left: 100px;
+}
+
+/* Paragraph styling */
+article p {
+    color: var(--text-color);
+}
+
+.sociallinks img{
+    width: 50px;
+}
