@@ -3,7 +3,7 @@
     --secondary-color: #102b3f;
     --accent-color: #ff5400;
     --background-color: #008DD5;
-    --text-color: #f3f3f3;
+    --text-color: #fff8f0;
     --heading-color: #2c3e50;
 }
 
@@ -20,8 +20,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     color: var(--text-color);
-    font-family: 'Georgia', serif;
-    line-height: 1.6;
 }
 
 body {
