@@ -1,9 +1,9 @@
 
 :root {
-    --primary-color: #fff8f0;
+    --primary-color: #ffffff;
     --secondary-color: #102b3f;
     --accent-color: #ff5400;
-    --background-color: #008DD5;
+    --background-color: #024a6e;
     --text-color: #fff8f0;
     --heading-color: #2c3e50;
 }
@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     color: var(--text-color);
+    font-size: 18PX;
 }
 
 body {
@@ -47,7 +48,7 @@ body {
     position: absolute;
     top: 50px;
     color: var(--primary-color);
-    background-color: rgba(87, 80, 117, 0.507);
+    background-color: rgba(11, 3, 51, 0.877);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -60,7 +61,7 @@ body {
     top: 150px;
     left: 50px;
     width: 90%;
-    background-color: rgba(122, 130, 233, 0.8);
+    background-color: rgba(15, 20, 95, 0.8);
     padding: 20px;
     border-radius: 8px;
 }
@@ -89,7 +90,7 @@ footer {
 }
 
 footer p {
-    margin-left: 400px;
+    margin-left: 500px;
 }
 
 .sociallinks {
