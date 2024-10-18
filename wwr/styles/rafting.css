@@ -94,11 +94,11 @@ footer p {
 }
 
 footer a{
-    color: #dd3603;
+    color: var(--primary-color);
 }
 
 footer a:hover{
-    color:#e6e6e6;
+    color:#f7442d;
 }
 
 .sociallinks {
@@ -315,7 +315,7 @@ input[type="submit"]:hover {
     grid-column: 1 / -1;
     text-align: center;
     gap: 10px;
-    background-color: var(--primary-color);
+    background-color: var(--heading-color);
     padding: 15px;
     border-radius: 5px;
 }
