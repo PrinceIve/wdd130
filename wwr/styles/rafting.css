@@ -90,7 +90,15 @@ footer {
 }
 
 footer p {
-    margin-left: 400px;
+    margin-left: 350px;
+}
+
+footer a{
+    color: #dd3603;
+}
+
+footer a:hover{
+    color:#e6e6e6;
 }
 
 .sociallinks {
@@ -194,4 +202,161 @@ header img {
     margin-bottom: 20px;
     padding: 10px;
     color: var(--secondary-color);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #007bff;
+    background-color: var(--primary-color);
+}
+
+.intro p{
+    text-align: center;
+}
+
+form {
+    display: grid;
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+
+
+fieldset{
+    display: grid;
+    grid-gap: .2rem;
+    margin: 1rem 0 1.5rem;
+    padding: 30px 40px;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 40px;
+    color: #6fdbee;
+    text-align: center;
+}
+
+input[type="radio"] {
+    padding: 50px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: var(--primary-color);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.map {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--background-color);
+    width: 100%;
+    margin: 0 auto;
+}
+.map p{
+    text-align: center;
+    padding: 10px;
+}
+.map h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    gap: 10px;
+    background-color: var(--primary-color);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.team h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: var(--background-color);
+}
+
+.team p {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: var(--secondary-color);
+}
+
+.adventures img,
+.team img {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures image maintains aspect ratio but fits within the box */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
+
+.team figure {
+    text-align: center;
+}
+
+.team img {
+    width: 200px;
+    height: auto;
+}
+
+.team figcaption {
+    margin-top: 5px;
+    font-weight: bold;
 }
